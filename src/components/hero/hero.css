@@ -1,0 +1,47 @@
+
+
+.hero > div {
+    padding: 2% 9%;
+}
+
+.hero > div > h1 {
+    font-family: "Noto Serif", serif;
+    font-weight: 300;
+    font-size: 35px;
+    /* align-items: center; */
+}
+
+.span {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.redd {
+    color: red;
+    font-weight: bold;
+}
+
+.spann {
+    font-weight: bold;
+}
+
+.hero > div > h2 {
+    color: blue;
+    text-align: right;
+    margin-top: -20px;
+}
+
+
+@media (max-width: 480px) {
+
+    .hero > div {
+        padding: 3% 7%;
+    }
+
+    .hero > div > h1 {
+        font-size: 20px;
+    }
+  }

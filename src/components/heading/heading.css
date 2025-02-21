@@ -1,0 +1,23 @@
+.heading {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+
+  }
+  
+  @media (max-width: 480px) {
+     .azino-img {
+        width: 90%;
+     }
+     .heading > div {
+        padding-left: 14%;
+     }
+    }
+  

@@ -1,0 +1,39 @@
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 60%; */
+    align-items: center;
+  /* text-align: center; */
+    text-align: left;
+    padding: 0 25%;
+}
+
+#faq {
+    text-align: center;
+}
+
+.faq-div {
+    padding:  0 1%;
+}
+
+.faq-div > h2 {
+    margin-bottom: 3px;
+}
+
+.emoji {
+    color: green;
+    font-size: 20px;
+    /* margin-bottom: -30px; */
+    /* font-weight: 800; */
+}
+
+.ans {
+    font-weight: 700;
+}
+
+
+@media (max-width: 480px) {
+    .faq-container {
+        padding: 0 5%;
+    }
+  }

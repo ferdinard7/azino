@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #d93434;
+    padding: 18px 22px 18px 22px;
+    text-decoration: none;
+    border: 1px solid #d93434;
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  
+  .pay-btn:hover {
+    background: #fc3c3c;
+    text-decoration: none;
+  }
+
+  .first-card {
+    margin-bottom: 4%;
+  }
+
+  .first-card > P {
+    font-size: 19px;
+  }
+
+  .second-card > P {
+    font-size: 19px;
+  }
+
+  .different {
+    font-weight: bold;
+  }
+
+  .what-btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: green;
+    padding: 18px 22px 18px 22px;
+    text-decoration: none;
+    border: 1px solid green;
+    cursor: pointer;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  .what-btn:hover {
+    background: green;
+    text-decoration: none;
+  }
+
+
+  .second-card {
+    margin-bottom: 3%;
+  }
+
+
+  .third-card > p{
+    font-size: 21px;
+  }
+
+  .differentt {
+    font-weight: bold;
+  }

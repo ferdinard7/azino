@@ -1,0 +1,34 @@
+.videos-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    flex-wrap: wrap;
+}
+
+.vid {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.vid > video {
+    height: 500px;
+}
+
+.omoo {
+    color: red;
+}
+
+@media (max-width: 480px) {
+   
+    .videos-container {
+        margin: 0 5%;
+    }
+
+    .vid > video {
+        height: 550px;
+        width: 300px;
+    }
+    
+
+  }
