@@ -7,6 +7,10 @@ const Card = () => {
         window.location.href = "https://wa.me/+2348035317931"; 
       };
 
+    const redirectToWhatsAppGroup = () => {
+        window.location.href = "https://chat.whatsapp.com/Hxuiw2licx615PbaBqKdKY"; 
+      };
+
     return (
      <div className='card'>
 
@@ -19,7 +23,7 @@ const Card = () => {
         <div className='second-card'>
         <hr />
             <p>click the <span className='different'>Yellow button to join our general WhatsApp group</span> if you want more Information.. </p>
-            <button className='what-btn' onClick={redirectToWhatsApp}>Whatsapp </button>
+            <button className='what-btn'  onClick={redirectToWhatsAppGroup}>Whatsapp </button>
         </div>
         
         <div className='third-card'>
